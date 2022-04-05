@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+:root {
+    --primary-color: #007AF3;
+}
+  
+body {
+    background: #f1fffe;
+    margin: 0;
+    font-family: 'Poppins';
+}
+  
+.navbar{
+    background: #475d68;
+    padding: 0.5em, 0.5em, 0, 0.5em;
+    margin-bottom: 0em;
+}
+
+
+
+nav,.primary-nav,.secondary-nav,.container{
+    display: flex;
+    list-style:none
+}
+
+.navbar a{
+    color: #3dc8ff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0.8em;
+    font-weight: bold;
+    line-height: 3em;
+}
+
+
+
+nav a:hover{
+    transition: .5s ease;
+    background-color: #2d414b;
+    border-radius: 5em;
+    font-size: 1.6em;
+    color:#3dffff;
+}
+
+.navbar span{
+    font-size: 4em;
+    margin-right: 2%;
+}
+
+.navbar .logo-link:hover{
+    transition: .5s ease;
+    background: #475d68;
+    
+}
+
+
+.navbar .logo-text-1{
+    /* color: #4ea9ff; */
+    color: rgb(179, 238, 62);
+    text-decoration: underline;
+}
+
+.navbar .logo-text-2{
+    color: #2a8eecf3;
+    color: rgb(152, 219, 17);
+    font-size: 2.8em;
+    vertical-align: top;
+    text-decoration: underline;
+}
+
+nav .primary-nav{
+    margin-right: 2em;
+}
+
+nav .secondary-nav{
+    margin-left: 7.5em;
+}
+
+.current a{
+    color: #ff8585;
+    
+}
+
+.current a:hover{
+    transition: .5s ease;
+    color: #ffbbbb;
+}
+
+.page-end{
+    background: #2a353a;
+    padding: 0;
+    margin-bottom: 0em;
+}
+.primary-end, .secondary-end{
+    display:flex;
+    list-style:none;
+    
+}
+.primary-end{
+    margin-left: 0;
+}
+.primary-end a{
+    color: #32addd;
+    text-decoration: none;
+    font-size: 1em;
+    margin-right: 5.4em;
+    margin-left: 0.5em;
+    line-height: 2em;
+}
+
+.primary-end a:hover{
+    transition: .5s ease;
+    color: #3dc8ff;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.logo-link-end a{
+    color: #3dc8ff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0.8em;
+    font-weight: bold;
+    line-height: 3em;
+    line-height: 3.5em;
+}
+
+.logo-link-end a:hover{
+    color: #3dc8ff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0.8em;
+    font-weight: bold;
+    line-height: 3em;
+    line-height: 3.5em;
+}
+
+
+.logo-link-end span{
+    font-size: 4em;
+    margin-right: 2%;
+}
+
+.logo-link-end .logo-text-1{
+    /* color: #4ea9ff; */
+    color: rgb(179, 238, 62);
+    text-decoration: underline;
+}
+
+.logo-link-end .logo-text-2{
+    color: #2a8eecf3;
+    color: rgb(152, 219, 17);
+    font-size: 2.8em;
+    vertical-align: top;
+    text-decoration: underline;
+}
+
+.secondary-end{
+    align-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.social-media{
+    margin-bottom: 0;
+    margin-left: 15em;
+    height: 2%;
+    width: 2%;
+}
+
+/* #yt{
+    height: 5em;
+    width: 5em;
+} */
+
+.social-media:hover{
+    height: auto;
+}

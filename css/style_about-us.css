@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+:root {
+    --primary-color: #007AF3;
+}
+  
+body {
+    background: #f1fffe;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.hero{
+    text-decoration: none;
+    padding: 0.8em;
+    font-size: 1em;
+    color: rgb(53, 53, 53);
+    align-items: center;
+    align-content: center;
+    object-position: center;
+}
+
+.hero > img{
+    display: block;
+    height: 20em;
+    width: 15em;
+    margin: 0 auto;
+}
+.gallery{
+    color: var(--primary-color);
+    text-align: center;
+    line-height: 1em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.heading{
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.testimonials-section li {
+    background: #006BD6;
+    color: rgb(238, 220, 217);
+    text-align: center;
+    width: 100%;
+    border-radius: 1em;
+}
+
+.testimonials-section li img {
+    width: 5em;
+    height: 5em;
+    border: 5px solid #006BD6;
+    border-radius: 50%;
+    margin-top: -1em;
+    margin-left: 7.3em;
+    
+}
+
+blockquote, cite{
+    text-align: center;
+}
+
+.location{
+    margin-top: 3em;
+    text-align: center;
+    text-decoration: underline;
+    height: auto;
+    width: auto;
+    color: rgb(46, 139, 119);
+}
+
+iframe{
+    width: 90%;
+}

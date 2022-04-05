@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #007AF3;
+}
+
+body {
+    background: #f1fffe;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.hero{
+    height: 20em;
+    width: 20em;
+    margin-left: 40%;
+    margin-bottom: 15%;
+}
+
+h1{
+    text-decoration: underline;
+    color: var(--primary-color);
+}
